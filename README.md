@@ -4,7 +4,10 @@ This repository contains a template code for a Node.js server and a vanilla Java
 
 ## NB 
 
-If you are using a different technology you can use your own folder structure. This template is optional.
+If you are using a different technology you can use your own folder structure. But if you are using JavaScript, use one of the provided project templates. 
+- Use app project template, if you plan to work with vanilla javascript
+- Use api project template, if you plan to work with Nodejs
+
 
 ## Folder Structure
 
