@@ -28,7 +28,7 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/getaseww/Yenetta-Code-Bootcamp-Test.git
+   git clone https://github.com/samson-16/yenetacode.git
 
 2. Create a MySQL database manually called 'product_management'.
 3. If your mysql server is configured to use password to connect please edit the development.js file in the config folder. Add you password to the password field currently it is empty string. If you set the NODE_ENV to production make the change in the .env.example file only.
