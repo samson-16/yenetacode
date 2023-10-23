@@ -29,3 +29,10 @@ Follow these instructions to get the project up and running on your local machin
 
    ```sh
    git clone https://github.com/getaseww/Yenetta-Code-Bootcamp-Test.git
+
+2. Create a MySQL database manually called 'product_management'.
+3. If your mysql server is configured to use password to connect please edit the development.js file in the config folder. Add you password to the password field currently it is empty string. If you set the NODE_ENV to production make the change in the .env.example file only.
+3. Move to the 'app' folder and run npm install.
+4. Move back and change directory to the 'api' folder and run the command npm install. This will install the necessary packages.
+5. While you are in the 'api' folder run 'npm run dev'. This will run the server and sync the database table for you.
+6. Open another terminal and change directory to 'app' folder the run npm run dev. This will start the vite server and click the link displayed in the terminal. This will open a browser with the project 
